@@ -1,19 +1,19 @@
-# Sign-Language-Recognition
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-<h1>Sign Language Recognition Using OpenCV</h1>
-<h2>Dependencies:</h2>
-  <p>1. Tensorflow</p>
-  <p>2. Keras</p>
-  <p>3. OpenCV</p>
-  
-  
-<h3>Dataset:</h3>
-<link>https://www.kaggle.com/datamunge/sign-language-mnist</link>
+Updated README for Sign Language Detection Repository
+Sign Language Detection
+This repository provides a framework for detecting and recognizing sign language gestures using machine learning models and computer vision techniques.
 
-<h3>Tools:</h3>
-  <p>Google Colab</p>
-
-<h2>How to run</h2>
-<p>Run ROIinOpenCV.py</p>
-Pytorch Implementation is given in sign_language_pytorch.ipynb
-
+Features
+Machine Learning Models: Includes implementations using TensorFlow, Keras, and Pytorch.
+Real-Time Detection: Utilizes OpenCV for real-time region-of-interest (ROI) detection.
+Pre-trained Model: A CNN model is provided (model.h5).
+Dataset: Utilizes the Sign Language MNIST dataset from Kaggle.
+Dependencies
+TensorFlow
+Keras
+OpenCV
+Pytorch (optional)
+How to Run
+Run ROIinOpenCV.py for real-time detection.
+Use sign_language_pytorch.ipynb for the Pytorch implementation.
+Dataset
+Download the dataset from Kaggle.
